@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League - Regras</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: url('pavlov league wall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #FFD700;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .section {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: rgba(5, 5, 5, 0.6);
+        }
+
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin-top: 0px;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #FFD700;
+        }
+
+        @media (max-width: 600px) {
+            .menu {
+                width: 200px;
+            }
+
+            .menu a {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            .section h2 {
+                font-size: 22px;
+            }
+
+            .section p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="../index.html">Início</a>
+        <a href="../Classificação/classificacao.html">Classificação</a>
+        <a href="../Calendario/calendario.html">Calendário</a>
+        <a href="../Times/times.html">Times</a>
+        <a href="../Mapas/mapas.html">Mapas</a>
+        <a href="./regras.html">Regras</a>
+        <a href="../Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE - REGRAS
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Funcionamento da Pontuação</h2>
+            <p>A Pavlov League funcionará como uma liga de pontos corridos, o time enfrentará o outro em uma partida de ‘’ida’’ como ‘’mandante’’ e outra de ‘’volta’’ como ‘’visitante’’.</p>
+            <p>- O time mandante é o time que terá a vantagem do terreno na rodada, ele escolherá os dois mapas a serem jogados e o lado que começam.</p>
+            <p>- Os times se enfrentarão em 2 mapas em cada rodada onde os pontos ganhos se definirão pelo desempenho dos times na partida:</p>
+            <ul>
+                <li>Vitória / Vitória (+3pts): O time que ganhar os 2 mapas sairá vitorioso e somará 3 pontos;</li>
+                <li>Vitória / Derrota (+1pts): Se o time ganhar um mapa e perder outro, a partida ficará empatada e os dois times somarão 1 ponto;</li>
+                <li>Derrota / Derrota (+0pts): Caso o time perca os 2 mapas ele será derrotado e não somará nenhum ponto;</li>
+            </ul>
+            <p>- Critérios de Desempate: O primeiro critério de desempate para os times que tem a mesma pontuação será o número de vitórias. O segundo critério de desempate será o número de Rounds Ganhos e o terceiro será quem perdeu menos Rounds.</p>
+        </div>
+
+        <div class="section">
+            <h2>Composição dos Times</h2>
+            <p>- Cada time será composto de 5 jogadores + 1 reserva;</p>
+            <p>- O reserva poderá ser substituído durante qualquer momento do jogo, porém uma vez trocado, o jogador que saiu não poderá voltar durante aquele Mapa.</p>
+            <p>- Os jogadores que poderão jogar no time durante a temporada serão somente aqueles inscritos antes do início da temporada.</p>
+            <p>- Caso um ou mais membros faltem, o time não poderá utilizar jogadores não inscritos e deverão jogar com desfalques.</p>
+            <p>- Os times só poderão trocar seus membros durante a Janela de Ajustes e Contratações, que ocorrerão no período de 1 mês antes do início da temporada.</p>
+        </div>
+
+        <div class="section">
+            <h2>Calendário</h2>
+            <ul>
+                <li>Dezembro (2024): Intervalo de Ajuste e Contratação</li>
+                <li>Janeiro, Fevereiro e Março (2025): Temporada 25/01 (alpha)</li>
+                <li>Abril (2025): Intervalo de Ajuste e Contratação</li>
+                <li>Maio, Junho e Julho (2025): Temporada 25/02 (beta)</li>
+                <li>Agosto (2024): Intervalo de Ajuste e Contratação</li>
+                <li>Setembro, Outubro e Novembro (2025): Temporada 25/01</li>
+                <li>Dezembro (2025): Intervalo de Ajuste e Contratação</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Composição da Liga</h2>
+            <p>A liga será composta por várias equipes além dos times para o andamento e manutenção da liga, e não está proibido que jogadores dos times exerçam funções nas equipes, desde que o jogador não use da má fé para benefício próprio ou do time (caso isso aconteça, haverá punições severas, como BAN).</p>
+        </div>
+
+        <div class="section">
+            <h2>Regras Gerais</h2>
+            <ul>
+                <li>Não haverá mods.</li>
+                <li>O uso proposital de Glitch e Bug dos mapas ocasionará na perda do round da equipe do jogador que utilizou, e o jogador receberá um Cartão Amarelo.</li>
+                <li>Proibido qualquer tipo de comunicação externa ao game.</li>
+                <li>Caso sejam infringidas as regras, poderão ser aplicadas punições tanto individuais quanto coletivas.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pavlov League. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: url('pavlov league wall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .news {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: rgba(5, 5, 5, 0.6);
+        }
+
+        .news h2 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #f4f804;
+        }
+
+        .news p {
+            font-size: 14px;
+            color: #f4f804;
+        }
+
+        /* Ajuste para vídeos */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Aspect Ratio de 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 15px 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Ajuste responsivo para dispositivos móveis */
+        @media (max-width: 600px) {
+            .menu {
+                width: 200px;
+            }
+
+            .menu a {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            .news h2 {
+                font-size: 16px;
+            }
+
+            .news p {
+                font-size: 12px;
+            }
+
+            .video-container {
+                padding-bottom: 56.25%; /* Aspect Ratio de 16:9 */
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin-top: 0px;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="./index.html">Início</a>
+        <a href="Classificação/classificacao.html">Classificação</a>
+        <a href="Calendario/calendario.html">Calendário</a>
+        <a href="Times/times.html">Times</a>
+        <a href="Mapas/mapas.html">Mapas</a>
+        <a href="Regras/regras.html">Regras</a>
+        <a href="Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE
+    </div>
+
+    <div class="content">
+        <div class="news">
+            <h2>Review de SKR(2) x (0)GDC Yt: BolaxaVR- 20/01/2025</h2>
+            <p>Assista o Review completo de SKR x GDC no canal BolaxaVR do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/5smG-21ILxI?start=729" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news">
+            <h2>Live de SKR(2) x (0)GDC Yt: vitor_cardp100- 19/01/2025</h2>
+            <p>Assista a live completa de SKR x GDC no canal vitor_cardp100 do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/EDHeA1oylmI" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news">
+            <h2>Smoker Snakes (2) x (0) Gang dos Caramelos - 19/01/2025</h2>
+            <p>Em uma partida dramatica para a Gang dos Caramelos que jogou com 3 desfalques Smoker Snakes conquista seus primeiros 3 pontos.</p>
+            <p>SKR nesse momento ocupa o 3° Lugar na classificação ultrapassando HTR pelos critérios de desempate.</p>
+            <p>Carnival - SKR(10) x (0)GDC</p>
+            <p>Autumn - SKR(10) x (0)GDC</p>
+        </div>
+        <div class="news">
+            <h2>Review de TOC(1) x (1)GIG Yt: BolaxaVR- 20/01/2025</h2>
+            <p>Assista o Review completo de TOC x GIG no canal BolaxaVR do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/5IIURyq9WEs" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news">
+            <h2>ToC (1) x (1) GIGANTES - 18/01/2025</h2>
+            <p>ToC enfrentou GIGANTES no segundo jogo da 2ª Rodada da Pavlov league onde garantiu o empate como mandante jogando com 1 desfalque.</p>
+            <p>No inicio na partida o time ToC chegou a ter 2 desfalques, jogando apenas com 3 jogadores mas conseguiu se manter firme na partida jogando de igual pra igual</p>
+            <p>Oilrig - TOC(10) x (5)GIG</p>
+            <p>Italy - TOC(9) x (10)GIG</p>
+        </div>
+        <div class="news">
+            <h2>Review de FSA(2) x (0)HTR Yt: BolaxaVR- 20/01/2025</h2>
+            <p>Assista o Review completo de FSA x HTR no canal BolaxaVR do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/nU_TJPsvuQI" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news">
+            <h2>False Allies (2) x (0) Hunter Clan - 18/01/2025</h2>
+            <p>False Allies enfrentou Hunter Clan no primeiro jogo da 2ª Rodada da Pavlov league onde venceu nos 2 mapas escolhidos como mandante (Overpass e Cache).</p>
+            <p>O time FSA está na liderança com 6 pontos e duas vitórias consecutivas</p>
+            <p>Overpass Shack - FSA(10) x (2)HTR</p>
+            <p>Cache - FSA(10) x (1)HTR</p>
+        </div>
+        <div class="news">
+            <h2>2ª Rodada - Mapas definidos - 16/01/2025</h2>
+            <p>Foram definidos pelos times os mapas que serão jogados pela 2ª rodada da Pavlov League.</p>
+            <p>TOC x GIG - 18/01/2025 22:00h</p>
+            <p>Mapa 1 - Italy</p>
+            <p>Mapa 2 - Oilrig</p>
+            <p>FSA x HTR - 18/01/2025 21:00h</p>
+            <p>Mapa 1 - Overpass</p>
+            <p>Mapa 2 - Cache</p>
+            <p>SKR x GDC - 19/01/2025 21:00h</p>
+            <p>Mapa 1 - Carnival</p>
+            <p>Mapa 2 - Autumn</p>
+        </div>
+
+        <div class="news">
+            <h2>Review de HTR(0) x (2)GDC Yt: BolaxaVR- 16/01/2025</h2>
+            <p>Assista o Review completo de HTR x GDC no canal BolaxaVR do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/US1uS23cDNg" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="news">
+            <h2>Hunter Clan (2) x (0) Gang dos Camelos - 13/01/2025</h2>
+            <p>Hunter Clan enfrentou as Gang dos Camelos no terceiro jogo da 1ª Rodada da Pavlov league onde venceu nos 2 mapas escolhidos como mandante (Overpass e Inferno).</p>
+            <p>Overpass Shack - HTR(10) x (3)GDC</p>
+            <p>Inferno Shack - HTR(10) x (2)GDC</p>
+        </div>
+
+        <div class="news">
+            <h2>Review de SKR(0) x (2)TOC Yt: BolaxaVR- 14/01/2025</h2>
+            <p>Assista o Review completo de SKR x TOC no canal BolaxaVR do Youtube:</p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/oXWNuDa7WLU" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="news">
+            <h2>Smoker Snakes (0) x (2) ToC - 12/01/2025</h2>
+            <p>Smoker Snakes enfrentou o time ToC no segundo jogo da 1ª Rodada da Pavlov league onde foi derrotado nos 2 mapas escolhidos como mandante (Dust 2 e Overpass). O time ToC começou com um desfalque, BOT_Perna que chegou durante a partida.</p>
+            <p>Dust 2 CS 1.6 - SKR(5) x (10)TOC</p>
+            <p>Overpass Shack - SKR(1) x (10)TOC</p>
+        </div>
+
+        <div class="news">
+            <h2>False Allies é penalizado - 12/01/2025</h2>
+            <p>Após a revisão de uma jogada no Replay do PavlovTV foi observado o uso indevido de um Glitch no mapa Dust 2 pelo jogador Gulix do time False Allies. Após conversas com os capitães e organização foi aplicada uma punição descrita nas regras da Liga onde False Allies teve que entregar seu round ganho para o GIGANTES deixando assim o placar final do jogo em 9x2 para False Allies. O jogador Gulix se pronunciou dizendo que não foi intencional, mas devido a vantagem obtida no momento a penalização foi aplicada e o jogador levou um "Cartão Amarelo".</p>
+        </div>
+
+        <div class="news">
+            <h2>ESTRÉIA DA PAVLOV LEAGUE 01/25 - 11/01/2025</h2>
+            <p>GIGANTES e False Allies se enfrentaram na partida de estréia da Pavlov league nos mapas Overpass e Dust 2, onde False Allies como visitante Bateu o GIGANTES que estava com um desfalque nos 2 mapas e conquistou os primeiros 3 pontos da Liga.</p>
+            <p>Overpass Shack - GIG(2) x (10)FSA</p>
+            <p>Dust 2 CS 1.6 - GIG(1) x (10)FSA</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pavlov League. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

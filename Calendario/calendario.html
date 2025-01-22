@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League - Calendário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: url('pavlov league wall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+.content {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.match-button {
+    background-color: rgba(5, 5, 5, 0.8);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; /* Garante que nada ultrapasse os limites do botão */
+}
+
+.match-button:hover {
+    background-color: #444;
+}
+
+.team-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden; /* Garante que texto longo não ultrapasse */
+    text-align: center; /* Centraliza a sigla */
+    white-space: nowrap; /* Impede que a sigla quebre para a próxima linha */
+}
+
+.team-logo img {
+    width: 80px; /* Define o tamanho da imagem */
+    height: 80px; /* Mantém o tamanho proporcional */
+    max-width: 100%; /* Impede que a imagem ultrapasse o limite do botão */
+    max-height: 100%; /* Impede que a imagem ultrapasse o limite do botão */
+    object-fit: contain; /* Garante que a imagem seja redimensionada corretamente */
+}
+
+.match-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 0%;
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    margin-top: -12%;
+    margin-bottom: 8%;
+}
+
+.date-time {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="../index.html">Início</a>
+        <a href="../Classificação/classificacao.html">Classificação</a>
+        <a href="./calendario.html">Calendário</a>
+        <a href="../Times/times.html">Times</a>
+        <a href="../Mapas/mapas.html">Mapas</a>
+        <a href="../Regras/regras.html">Regras</a>
+        <a href="../Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE - CALENDÁRIO
+    </div>
+
+    <div class="content">
+        <!-- Primeiro Turno -->
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+            </div>
+            <div class="score">
+                0 - 2
+            </div>
+            <div class="date-time">
+               1ª Rodada: 10/01 (SEX) - 21h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    SKR
+                    <img src="./smoker_snakes_logo.png" alt="SKR Logo">
+                </span>
+                <span class="team-logo">
+                    TOC
+                    <img src="./toc_logo.png" alt="TOC Logo">
+                </span>
+            </div>
+            <div class="score">
+                0 - 2
+            </div>
+            <div class="date-time">
+                1ª Rodada: 12/01 (DOM) - 21h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    HTR
+                    <img src="./hunter_clan_logo.png" alt="HTR Logo">
+                </span>
+                <span class="team-logo">
+                    GDC
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+            </div>
+            <div class="score">
+                2 - 0
+            </div>
+            <div class="date-time">
+                1ª Rodada: 13/01 (SEG) - 21h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    TOC
+                    <img src="./toc_logo.png" alt="TOC Logo">
+                </span>
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+            </div>
+            <div class="score">
+                1 - 1
+            </div>
+            <div class="date-time">
+                2ª Rodada: 18/01 (SAB) - 22h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="FSA Logo">
+                </span>
+                <span class="team-logo">
+                    HTR
+                    <img src="./hunter_clan_logo.png" alt="HTR Logo">
+                </span>
+            </div>
+            <div class="score">
+                2 - 0
+            </div>
+            <div class="date-time">
+                2ª Rodada: 18/01 (SAB) - 21h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    SKR
+                    <img src="./smoker_snakes_logo.png" alt="SKR Logo">
+                </span>
+                <span class="team-logo">
+                    GDC
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+            </div>
+            <div class="score">
+                2 - 0
+            </div>
+            <div class="date-time">
+                2ª Rodada: 19/01 (DOM) - 21h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                3ª Rodada: 25/01 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                3ª Rodada: 25/01 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                3ª Rodada: 26/01 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                4ª Rodada: 1/02 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                4ª Rodada: 1/02 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                4ª Rodada: 2/02 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                5ª Rodada: 8/02 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                5ª Rodada: 8/02 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                5ª Rodada: 9/02 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                6ª Rodada: 15/02 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                6ª Rodada: 15/02 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                6ª Rodada: 16/02 (DOM) - 19h
+            </div>
+        </button>
+
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                7ª Rodada: 22/02 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                7ª Rodada: 22/02 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                7ª Rodada: 23/02 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                8ª Rodada: 1/03 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                8ª Rodada: 1/03 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                8ª Rodada: 2/03 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                9ª Rodada: 8/03 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                9ª Rodada: 8/03 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                9ª Rodada: 9/03 (DOM) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    GCG
+                    <img src="./caramelos_logo.png" alt="GDC Logo">
+                </span>
+                <span class="team-logo">
+                    GIG
+                    <img src="./gigantes_logo.png" alt="GIGANTES Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                10ª Rodada: 15/03 (SAB) - 19h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    ToC
+                    <img src="./toc_logo.png" alt="ToC Logo">
+                </span>
+                <span class="team-logo">
+                    FSA
+                    <img src="./false_allies_logo.png" alt="False Allies Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                10ª Rodada: 15/03 (SAB) - 21h
+            </div>
+        </button>
+        
+        <button class="match-button">
+            <div class="match-info">
+                <span class="team-logo">
+                    HC
+                    <img src="./hunter_clan_logo.png" alt="Hunter Clan Logo">
+                </span>
+                <span class="team-logo">
+                    SNS
+                    <img src="./smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+                </span>
+            </div>
+            <div class="score">
+                ? - ?
+            </div>
+            <div class="date-time">
+                10ª Rodada: 16/03 (DOM) - 19h
+            </div>
+        </button>
+
+        <!-- Continue com o restante das partidas com o formato ajustado -->
+    </div>
+</body>
+</html>

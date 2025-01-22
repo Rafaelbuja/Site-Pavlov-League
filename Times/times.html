@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League - Times</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+            background-image: url('pavlov league wall.jpg'); /* Adiciona o wallpaper de fundo */
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a tela */
+            background-position: center; /* Alinha a imagem no centro da tela */
+            background-repeat: no-repeat; /* Garante que a imagem não será repetida */
+            background-attachment: fixed; /* Torna o fundo fixo enquanto rola o conteúdo */
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #222;
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-button {
+            background-color: rgba(5, 5, 5, 0.6);
+            color: white;
+            border: none;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            width: 300px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Alinhando conteúdo à esquerda */
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 18px;
+        }
+
+        .team-button img {
+            width: 100px;
+            height: 100px;
+            margin-left: 5px;
+            margin-right: 15px; /* Espaço entre a imagem e o nome */
+        }
+
+        .team-button:hover {
+            background-color: #444;
+        }
+
+        .team-button span {
+            margin-left: 15px; /* Garantindo espaçamento à esquerda do nome */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin-top: 0px;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="../index.html">Início</a>
+        <a href="../Classificação/classificacao.html">Classificação</a>
+        <a href="../Calendario/calendario.html">Calendário</a>
+        <a href="./times.html">Times</a>
+        <a href="../Mapas/mapas.html">Mapas</a>
+        <a href="../Regras/regras.html">Regras</a>
+        <a href="../Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE - TIMES
+    </div>
+
+    <div class="content">
+        <button class="team-button" onclick="window.location.href='smoker_snakes.html';">
+            <img src="smoker_snakes_logo.png" alt="Smoker Snakes Logo">
+            <span>Smoker Snakes</span>
+        </button>
+        <button class="team-button" onclick="window.location.href='gigantes.html';">
+            <img src="gigantes_logo.png" alt="GIGANTES Logo">
+            <span>GIGANTES</span>
+        </button>
+        <button class="team-button" onclick="window.location.href='toc.html';">
+            <img src="toc_logo.png" alt="Toc Logo">
+            <span>Toc</span>
+        </button>
+        <button class="team-button" onclick="window.location.href='false_allies.html';">
+            <img src="false_allies_logo.png" alt="False Allies Logo">
+            <span>False Allies</span>
+        </button>
+        <button class="team-button" onclick="window.location.href='caramelos.html';">
+            <img src="caramelos_logo.png" alt="Caramelos Logo">
+            <span>Caramelos</span>
+        </button>
+        <button class="team-button" onclick="window.location.href='hunter_clan.html';">
+            <img src="hunter_clan_logo.png" alt="Hunter Clan Logo">
+            <span>Hunter Clan</span>
+        </button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pavlov League. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
