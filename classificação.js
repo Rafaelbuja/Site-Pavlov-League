@@ -3,101 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavlov League - Classificação</title>
+    <title>Pavlov League</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             display: flex;
             flex-direction: column;
-            height: 100vh;
+            align-items: center;
             background-image: url('pavlov league wall.jpg');
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
             color: white;
-        }
-
-        #menu-toggle {
-            display: none;
-        }
-
-        .header {
-            background-color: rgba(51, 51, 51, 0.8);
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: relative;
-        }
-
-        .menu-button {
-            position: absolute;
-            top: 0px;
-            left: 10px;
-            background-color: #555;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .menu-button:focus {
-            outline: none;
-        }
-
-        .menu {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 250px;
-            background-color: rgba(34, 34, 34, 0.9);
-            color: white;
-            transform: translateX(-100%);
-            transition: transform 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            z-index: 1000;
-        }
-
-        .menu a {
-            text-decoration: none;
-            color: white;
-            padding: 15px;
-            border-bottom: 1px solid #444;
-            text-align: center;
-        }
-
-        .menu a:hover {
-            background-color: #444;
-        }
-
-        #menu-toggle:checked + .menu {
-            transform: translateX(0);
-        }
-
-        .content {
-            flex: 1;
-            padding: 10px;
-            overflow-y: auto;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 5px;
-            margin: 10px;
         }
 
         #table-container {
-            width: auto;
+            width: 90%;
             max-width: 1200px;
             margin: 20px auto;
-            margin-left: 6px;
-            margin-right: 6px;
         }
 
         /* Estilos da tabela */
@@ -107,13 +32,11 @@
             background-color: rgba(0, 0, 0, 0.8);
             color: yellow;
             text-align: center;
-            table-layout: fixed; /* As colunas terão largura fixa proporcional */
         }
 
         th, td {
-            padding: 8px;
+            padding: 15px;
             border: 1px solid rgba(255, 255, 255, 0.2);
-            font-size: 11px;
         }
 
         th {
@@ -129,62 +52,23 @@
             background-color: rgba(255, 255, 0, 0.2);
             cursor: pointer;
         }
-        th:nth-child(2) {
-            width: 65px; /* Largura para a coluna 'Nome do Time' */
-        }
-
-        th:not(:nth-child(2)) {
-            width: 10px; /* Largura padrão para as outras colunas */
-        }
 
         @media (max-width: 600px) {
             table {
-                font-size: 10px;
+                font-size: 12px;
             }
             th, td {
-                padding: 15px;
+                padding: 10px;
             }
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
-            margin-top: 0px;
-        }
-
-        footer p {
-            font-size: 16px;
-            color: #FFD700;
         }
     </style>
 </head>
 <body>
-    <input type="checkbox" id="menu-toggle">
-    <div class="menu">
-        <label for="menu-toggle" class="menu-button">&#10005;</label>
-        <a href="../index.html">Início</a>
-        <a href="./classificacao.html">Classificação</a>
-        <a href="../Calendario/calendario.html">Calendário</a>
-        <a href="../Times/times.html">Times</a>
-        <a href="../Mapas/mapas.html">Mapas</a>
-        <a href="../Regras/regras.html">Regras</a>
-        <a href="../Sobre/Sobre.html">Sobre</a>
-    </div>
-
-    <div class="header">
-        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
-        PAVLOV LEAGUE
-    </div>
+    <h1>Pavlov League - Classificação</h1>
     <div id="table-container"></div>
 
     <script src="../dados_raw.js"></script> <!-- Certifique-se de que este arquivo contém o array all_matches -->
     <script>
-        // Função para formatar os nomes dos times antes de inseri-los na tabela
-        function formatTeamName(name) {
-            return name.replace(/_/g, ' ').replace(/([a-z])([A-Z])/g, '$1 $2');
-        }
-
         function processMatchData(all_matches) {
             const container = document.getElementById("table-container");
 
@@ -228,6 +112,7 @@
                     mapScores.forEach(([teamKey, teamScore]) => {
                         const teamName = teamKey.replace("Score", "");
                         mapScores.forEach(([opponentKey, opponentScore]) => {
+                            // A soma de rounds contra deve ser feita somente entre os times diferentes
                             if (teamKey !== opponentKey) {
                                 roundsAgainst[teamName] += opponentScore;
                             }
@@ -268,19 +153,22 @@
                 teams[teamB].roundsPro += roundsPro[teamB];
                 teams[teamB].roundsAgainst += roundsAgainst[teamB];
 
-                // Determina o resultado do embate
+                // Determina o resultado do embate com base nos mapas individuais
                 const teamAWins = maps.filter((map) => map[`${teamA}Score`] > map[`${teamB}Score`]).length;
                 const teamBWins = maps.filter((map) => map[`${teamB}Score`] > map[`${teamA}Score`]).length;
 
+                // Se um time vencer ambos os mapas, ele ganha 3 pontos
                 if (teamAWins === 2) {
                     teams[teamA].wins++;
-                    teams[teamA].points += 3; // Vitória nos 2 mapas
+                    teams[teamA].points += 3;
                     teams[teamB].losses++;
                 } else if (teamBWins === 2) {
                     teams[teamB].wins++;
-                    teams[teamB].points += 3; // Vitória nos 2 mapas
+                    teams[teamB].points += 3;
                     teams[teamA].losses++;
-                } else if (teamAWins === 1 && teamBWins === 1) {
+                }
+                // Se houver empate no placar agregado (um mapa para cada), ambos os times recebem 1 ponto
+                else if (teamAWins === 1 && teamBWins === 1) {
                     teams[teamA].draws++;
                     teams[teamB].draws++;
                     teams[teamA].points++;
@@ -288,7 +176,7 @@
                 }
             });
 
-            // Calcula o critério de desempate
+            // Calcula o critério de desempate (DES)
             Object.values(teams).forEach((team) => {
                 team.des =
                     team.points * 10000 +
@@ -297,50 +185,39 @@
                     team.roundsAgainst;
             });
 
-            // Ordena os times pelo critério de desempate
+            // Ordena os times pelo critério de desempate (DESC)
             const sortedTeams = Object.values(teams).sort((a, b) => b.des - a.des);
 
-            // Cria o conteúdo da tabela
-            let tableHTML = `
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Pos</th>
-                            <th>Time</th>
-                            <th>Pts</th>
-                            <th>Vit</th>
-                            <th>Emp</th>
-                            <th>Der</th>
-                            <th>RP</th>
-                            <th>RC</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-            `;
-            
-            sortedTeams.forEach((team, index) => {
-                tableHTML += `
-                    <tr>
-                        <td>${index + 1}</td>
-                        <td>${formatTeamName(team.name)}</td>
-                        <td>${team.points}</td>
-                        <td>${team.wins}</td>
-                        <td>${team.draws}</td>
-                        <td>${team.losses}</td>
-                        <td>${team.roundsPro}</td>
-                        <td>${team.roundsAgainst}</td>
-                    </tr>
-                `;
+            // Criação da tabela
+            const table = document.createElement("table");
+
+            // Cabeçalho da tabela
+            const headerRow = table.insertRow();
+            ["Pos", "Time", "Pts", "Vit", "Emp", "Der", "RP", "RC"].forEach((header) => {
+                const cell = document.createElement("th");
+                cell.textContent = header;
+                headerRow.appendChild(cell);
             });
 
-            tableHTML += "</tbody></table>";
+            // Adiciona linhas para cada time
+            sortedTeams.forEach((team, index) => {
+                const row = table.insertRow();
+                row.insertCell().textContent = index + 1; // Classificação
+                row.insertCell().textContent = team.name; // Nome do time
+                row.insertCell().textContent = team.points; // Pontos
+                row.insertCell().textContent = team.wins; // Vitórias
+                row.insertCell().textContent = team.draws; // Empates
+                row.insertCell().textContent = team.losses; // Derrotas
+                row.insertCell().textContent = team.roundsPro; // Rounds Pro
+                row.insertCell().textContent = team.roundsAgainst; // Rounds Contra
+            });
 
-            // Adiciona a tabela no container
-            container.innerHTML = tableHTML;
+            // Adiciona a tabela ao container
+            container.appendChild(table);
         }
 
-        // Chama a função para processar os dados do campeonato
-        processMatchData(all_matches);
+        // Processar dados brutos
+        processMatchData(window.all_matches);
     </script>
 </body>
 </html>

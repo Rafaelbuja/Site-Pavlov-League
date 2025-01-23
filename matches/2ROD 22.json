@@ -1,0 +1,257 @@
+{
+	"MatchId": "0125-2rod-2",
+    "MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "Deixa_Pro_Pai",
+			"productId": "0002c0b7a0a74976bca995c6a8f7164a",
+			"playerName": "Deixa_Pro_Pai",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 15
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 18
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Fernandoalves25",
+			"productId": "0002f34e97d34e6cb76c75f77cb2721e",
+			"playerName": "Fernandoalves25",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 15
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "Bolaxa",
+			"productId": "0002d9b1755344558eedaf5bf1ffe49c",
+			"playerName": "Bolaxa",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 17
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "kakamil.2025",
+			"productId": "00029102250a4eea9d3e59cf8d6ac32f",
+			"playerName": "kakamil.2025",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				}
+			]
+		},
+		{
+			"uniqueId": "Akemi.Ozahata",
+			"productId": "00025407df514ec585728852e649c117",
+			"playerName": "Akemi.Ozahata",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				},
+				{
+					"statType": "Kill",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		}
+	],
+	"MapLabel": "UGC2879562",
+	"GameMode": "SND",
+	"MatchDuration": 1650,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"TOCScore": 9,
+	"GigantesScore": 10
+}

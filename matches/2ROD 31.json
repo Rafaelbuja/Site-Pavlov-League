@@ -1,0 +1,204 @@
+{
+	"MatchId": "0125-2rod-3",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "Santos1200",
+			"productId": "00022b26fd4943c5bd6d3edd1418cc17",
+			"playerName": "Santos1200",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "DrauzioPaunelas",
+			"productId": "0002e0ea70ee4f6ba25bbfff25cee52c",
+			"playerName": "DrauzioPaunelas",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "GabrielGMM",
+			"productId": "00029d5dc6b94a0c81c494eb9eaacdba",
+			"playerName": "GabrielGMM",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Augusot",
+			"productId": "00023556ba7c4f678ef0fdf598138a12",
+			"playerName": "Augusot",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 1
+				},
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "SphereDF",
+			"productId": "0002ea59553647d9b34d1bf1197e9cb1",
+			"playerName": "SphereDF",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Death",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"uniqueId": "RatoDePraia22",
+			"productId": "0002e5d1a33f488392f9ee7766839815",
+			"playerName": "RatoDePraia22",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Kill",
+					"amount": 7
+				}
+			]
+		}
+	],
+	"MapLabel": {
+		"MapName": "carnival",
+		"MapCode": "2"
+	},
+	"GameMode": "SND",
+	"MatchDuration": 1225,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"SmokerSnakesScore": 10,
+	"CaramelosScore": 0
+}

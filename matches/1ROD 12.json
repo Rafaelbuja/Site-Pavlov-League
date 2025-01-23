@@ -1,0 +1,259 @@
+{
+	"MatchId": "0125-1rod-1",
+    "MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "kakamil.2025",
+			"productId": "00029102250a4eea9d3e59cf8d6ac32f",
+			"playerName": "kakamil.2025",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"uniqueId": "FreeTack",
+			"productId": "00029c544820419aa908ac9b841624ac",
+			"playerName": "FreeTack",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "Akemi.Ozahata",
+			"productId": "00025407df514ec585728852e649c117",
+			"playerName": "Akemi.Ozahata",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Vitor_cardp100",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Vitor_cardp100",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"uniqueId": "Deixa_Pro_Pai",
+			"productId": "0002c0b7a0a74976bca995c6a8f7164a",
+			"playerName": "Deixa_Pro_Pai",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Bolaxa",
+			"productId": "0002d9b1755344558eedaf5bf1ffe49c",
+			"playerName": "Bolaxa",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				}
+			]
+		}
+	],
+	"MapLabel": {
+		"MapName": "Dust 2 CS 1.6",
+		"MapCode": "UGC3274566"
+	},
+	"GameMode": "SND",
+	"MatchDuration": 1058,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"OriginalScores": {
+		"FalseAllies": 10,
+		"Gigantes": 1
+	},
+	"PenaltyAdjustment": {
+		"TeamPenalized": "False Allies",
+		"PointsDeducted": 1,
+		"Reason": "Rule violation"
+	},
+	"AdjustedScores": {
+		"FalseAllies": 9,
+		"Gigantes": 2
+	}
+}

@@ -1,0 +1,268 @@
+{
+	"MatchId": "0125-1rod-3",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "lucaszannatt1",
+			"productId": "000215cb656045f68bce8c2626b6674c",
+			"playerName": "lucaszannatt1",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "lxXConnorXxl",
+			"productId": "0002a3bbd1944e6f9d89673de05b38fd",
+			"playerName": "lxXConnorXxl",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 18
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 13
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "PowerSJK",
+			"productId": "00025a90c71f427b944887962ec81487",
+			"playerName": "PowerSJK",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Santos1200",
+			"productId": "00022b26fd4943c5bd6d3edd1418cc17",
+			"playerName": "Santos1200",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"uniqueId": "david.felix",
+			"productId": "0002034af6a6481fb11a479e1924c6d0",
+			"playerName": "david.felix",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "johnsilvahh",
+			"productId": "0002d03c9d8b40f9aef919a3da6da371",
+			"playerName": "johnsilvahh",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"uniqueId": "GabrielGMM",
+			"productId": "00029d5dc6b94a0c81c494eb9eaacdba",
+			"playerName": "GabrielGMM",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "AndrewConstantino",
+			"productId": "0002d83fcede4313ab098e8141d08e55",
+			"playerName": "AndrewConstantino",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				}
+			]
+		},
+		{
+			"uniqueId": "User.fernando",
+			"productId": "0002f2d619054a78b8317a5bbbb73ffa",
+			"playerName": "User.fernando",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				}
+			]
+		}
+	],
+	"MapLabel": {
+		"MapName": "Dust 2 CS 1.6",
+		"MapCode": "UGC3274566"
+	},
+	"GameMode": "SND",
+	"MatchDuration": 1634,
+	"PlayerCount": 11,
+	"bTeams": true,
+	"CaramelosScore": 3,
+	"HunterClanScore": 10
+}
