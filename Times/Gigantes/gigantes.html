@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League - Gigantes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('../pavlov league wall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #222;
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            margin-top: 50px; /* Espaço para o header fixo */
+            margin-bottom: 50px; /* Espaço para o footer fixo */
+        }
+
+        .team-button {
+            background-color: rgba(5, 5, 5, 0.7);
+            color: white;
+            border: none;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 5px;
+            width: auto;
+            cursor: pointer;
+            display: flex; /* Ativa o modelo flex */
+            flex-direction: column; /* Organiza os itens em uma coluna */
+            align-items: center; /* Alinha os itens horizontalmente no centro */
+            justify-content: center; /* Alinha os itens verticalmente no centro */
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 20px;
+            text-align: center; /* Centraliza o texto */
+            margin-top: 45px;
+            height: 200px;
+        }
+
+        .team-button img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px; /* Adiciona um pequeno espaço entre a imagem e o texto */
+        }
+
+        
+        #table-container {
+            width: auto;
+            max-width: 1200px;
+            margin: 5px auto;
+            margin-left: 6px;
+            margin-right: 6px;
+            flex: 1;
+            overflow-y: auto; /* Barra de rolagem ativada */
+            margin-bottom: 70px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: yellow;
+            text-align: center;
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 11px;
+        }
+
+        th {
+            background-color: rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 0, 0.2);
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            table {
+                font-size: 10px;
+            }
+            th, td {
+                padding: 15px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="../../index.html">Início</a>
+        <a href="../../Classificação/classificacao.html">Classificação</a>
+        <a href="../../Calendario/calendario.html">Calendário</a>
+        <a href="./../times.html">Times</a>
+        <a href="../../Mapas/mapas.html">Mapas</a>
+        <a href="../../Regras/regras.html">Regras</a>
+        <a href="../../Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE - GIGANTES
+    </div>
+
+    <div class="team-button">
+        <img src="../gigantes_logo.png" alt="GIGANTES Logo">
+        <h2>GIGANTES</h2>
+        </div>
+
+    
+    <div id="table-container"></div>
+
+    <footer>
+        <p>&copy; 2025 Pavlov League. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../../dados_raw.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            function aggregateStatsForTeam(matches, teamId) {
+                const aggregatedStats = {};
+                matches.forEach(match => {
+                    match.allStats
+                        .filter(player => player.teamId === teamId)
+                        .forEach(player => {
+                            const productId = player.productId;
+                            if (!aggregatedStats[productId]) {
+                                aggregatedStats[productId] = {
+                                    Names: [],
+                                    Kill: 0,
+                                    Death: 0,
+                                    Assist: 0,
+                                    Headshot: 0,
+                                    BombPlanted: 0,
+                                    BombDefused: 0,
+                                    Score: 0
+                                };
+                            }
+
+                            if (!aggregatedStats[productId]["Names"].includes(player.playerName)) {
+                                aggregatedStats[productId]["Names"].push(player.playerName);
+                            }
+
+                            player.stats.forEach(stat => {
+                                const statType = stat.statType;
+                                const amount = stat.amount;
+
+                                if (aggregatedStats[productId][statType] !== undefined) {
+                                    aggregatedStats[productId][statType] += amount;
+                                }
+                            });
+
+                            const stats = aggregatedStats[productId];
+                            stats.Score =
+                                stats.Kill * 2 +
+                                stats.Assist * 1 +
+                                stats.Headshot * 2 +
+                                stats.BombPlanted * 2 +
+                                stats.BombDefused * 3 -
+                                stats.Death * 1;
+                        });
+                });
+
+                return aggregatedStats;
+            }
+
+            function createTableForTeam(data) {
+                const table = document.createElement('table');
+
+                const sortedPlayers = Object.values(data).sort((a, b) => b.Score - a.Score);
+
+                sortedPlayers.forEach(player => {
+                    const rowName = document.createElement('tr');
+                    const nameCell = document.createElement('td');
+                    nameCell.textContent = player.Names.join(', ');
+                    nameCell.colSpan = 7;
+                    nameCell.style.textAlign = "center";
+                    rowName.appendChild(nameCell);
+                    table.appendChild(rowName);
+
+                    const rowHeader = document.createElement('tr');
+                    const headerNames = ['Kill', 'Death', 'Assist', 'HS', 'Bomb Plant', 'Bomb Defus', 'Score'];
+                    headerNames.forEach(header => {
+                        const headerCell = document.createElement('td');
+                        headerCell.textContent = header;
+                        rowHeader.appendChild(headerCell);
+                    });
+                    table.appendChild(rowHeader);
+
+                    const rowStats = document.createElement('tr');
+                    const killCell = document.createElement('td');
+                    killCell.textContent = player.Kill || 0;
+                    rowStats.appendChild(killCell);
+
+                    const deathCell = document.createElement('td');
+                    deathCell.textContent = player.Death || 0;
+                    rowStats.appendChild(deathCell);
+
+                    const assistCell = document.createElement('td');
+                    assistCell.textContent = player.Assist || 0;
+                    rowStats.appendChild(assistCell);
+
+                    const headshotCell = document.createElement('td');
+                    headshotCell.textContent = player.Headshot || 0;
+                    rowStats.appendChild(headshotCell);
+
+                    const bombPlantedCell = document.createElement('td');
+                    bombPlantedCell.textContent = player.BombPlanted || 0;
+                    rowStats.appendChild(bombPlantedCell);
+
+                    const bombDefusedCell = document.createElement('td');
+                    bombDefusedCell.textContent = player.BombDefused || 0;
+                    rowStats.appendChild(bombDefusedCell);
+
+                    const scoreCell = document.createElement('td');
+                    scoreCell.textContent = player.Score;
+                    rowStats.appendChild(scoreCell);
+
+                    table.appendChild(rowStats);
+                });
+
+                return table;
+            }
+
+            const teamId = "GIGANTES";
+            const teamData = aggregateStatsForTeam(all_matches, teamId);
+            const tableContainer = document.getElementById('table-container');
+            const table = createTableForTeam(teamData);
+            tableContainer.appendChild(table);
+        });
+    </script>
+</body>
+</html>
