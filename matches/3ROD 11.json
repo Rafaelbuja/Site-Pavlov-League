@@ -1,0 +1,228 @@
+{
+	"MatchId": "0125-3rod-1",
+    "MapNumber": 1,
+	"allStats": [		
+		{
+			"uniqueId": "Vitor_cardp100",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Vitor_cardp100",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}				
+			]
+		},
+		{
+			"uniqueId": "AndrewConstantino",
+			"productId": "0002d83fcede4313ab098e8141d08e55",
+			"playerName": "AndrewConstantino",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "FreeTack",
+			"productId": "00029c544820419aa908ac9b841624ac",
+			"playerName": "FreeTack",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Erik._.MAga",
+			"productId": "000211b6e2c14f2cbd5d06bd8e1db828",
+			"playerName": "Erik._.MAga",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Nicky_Correa",
+			"productId": "0002db53cdd34e70bdfa1b504ecafe06",
+			"playerName": "Nicky_Correa",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		}
+	],
+	"MapLabel": {
+            "MapName": "Vertigo",
+            "MapCode": "UGC4500480"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1371,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"CaramelosScore": 4,
+	"FalseAlliesScore": 10
+}

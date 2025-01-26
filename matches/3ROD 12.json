@@ -1,0 +1,260 @@
+{
+	"MatchId": "0125-3rod-1",
+    "MapNumber": 2,
+	"allStats": [		
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 19
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "Santos1200",
+			"productId": "00022b26fd4943c5bd6d3edd1418cc17",
+			"playerName": "Santos1200",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "GabrielGMM",
+			"productId": "00029d5dc6b94a0c81c494eb9eaacdba",
+			"playerName": "GabrielGMM",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "AndrewConstantino",
+			"productId": "0002d83fcede4313ab098e8141d08e55",
+			"playerName": "AndrewConstantino",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "Nicky_Correa",
+			"productId": "0002db53cdd34e70bdfa1b504ecafe06",
+			"playerName": "Nicky_Correa",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "FreeTack",
+			"productId": "00029c544820419aa908ac9b841624ac",
+			"playerName": "FreeTack",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"uniqueId": "Vitor_cardp100",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Vitor_cardp100",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				}
+			]
+		}
+	],
+	"MapLabel": {
+            "MapName": "Dust 2 CS 1.6",
+            "MapCode": "UGC3274566"
+    },	
+	"GameMode": "SND",
+	"MatchDuration": 1284,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"CaramelosScore": 1,
+	"FalseAlliesScore": 10
+}
