@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavlov League - Detalhes</title>
+    <style>
+        /* Estilos globais para zerar margens, paddings e configurar o box-sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('../pavlov league wall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+
+        /* Checkbox para abrir o menu (usado com CSS puro) */
+        #menu-toggle {
+            display: none;
+        }
+
+        .header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button:focus {
+            outline: none;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            text-align: center;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        #menu-toggle:checked + .menu {
+            transform: translateX(0);
+        }
+
+        /* Área de conteúdo principal */
+        .content {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Contêiner principal das tabelas */
+        #table-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 97%;
+            gap: 20px;
+        }
+
+        /* Estilo de cada mapa */
+        .map-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: yellow;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 8px;
+            width: calc(100% - 20px);
+            box-sizing: border-box;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        /* Estilo geral das tabelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: yellow;
+            text-align: center;
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 11px;
+        }
+
+        th {
+            background-color: rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+        }
+
+        tr.player-name {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        tr.stats-row {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .map-section h3 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        /* Rodapé fixo */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #FFD700;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="menu">
+        <label for="menu-toggle" class="menu-button">&#10005;</label>
+        <a href="../../index.html">Início</a>
+        <a href="../../Classificação/classificacao.html">Classificação</a>
+        <a href="../../Calendario/calendario.html">Calendário</a>
+        <a href="../../Times/times.html">Times</a>
+        <a href="../../Mapas/mapas.html">Mapas</a>
+        <a href="../../Regras/regras.html">Regras</a>
+        <a href="../../Sobre/Sobre.html">Sobre</a>
+    </div>
+
+    <div class="header">
+        <button class="menu-button" onclick="document.getElementById('menu-toggle').click();">☰</button>
+        PAVLOV LEAGUE - DETALHES
+    </div>
+
+    <div id="table-container"></div>
+
+    <footer>
+        <p>&copy; 2025 Pavlov League. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../../dados_raw.js"></script>
+    <script>
+        function calculateScore(stats) {
+            return (
+                (stats.Kill || 0) * 2 +
+                (stats.Assist || 0) * 1 +
+                (stats.Headshot || 0) * 2 +
+                (stats.BombPlanted || 0) * 2 +
+                (stats.BombDefused || 0) * 3 -
+                (stats.Death || 0) * 1
+            );
+        }
+    
+        function calculateKDA(stats) {
+            const killsAndAssists = (stats.Kill || 0) + (stats.Assist || 0);
+            return stats.Death > 0 ? (killsAndAssists / stats.Death).toFixed(2) : "N/A";
+        }
+    
+        function processMatchData(matchId, all_matches) {
+            const content = document.getElementById('table-container');
+    
+            function formatDuration(seconds) {
+                const minutes = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                return `${minutes}m ${secs}s`;
+            }
+    
+            function createTable(data) {
+                const section = document.createElement('div');
+                section.classList.add('map-section');
+    
+                const title = document.createElement('h2');
+                title.textContent = `${data.MapLabel.MapName} (Mapa ${data.MapNumber})`;
+                section.appendChild(title);
+    
+                const duration = document.createElement('h3');
+                duration.textContent = `Duração: ${formatDuration(data.MatchDuration)}`;
+                section.appendChild(duration);
+    
+                // Obter placar dos times
+                const scores = {
+                    FalseAllies: data.FalseAlliesScore || 0,
+                    Gigantes: data.GigantesScore || 0,
+                    //SmokerSnakes: data.SmokerSnakesScore || 0,
+                    //TOC: data.TOCScore || 0,
+                    //Caramelos: data.CaramelosScore || 0,
+                    //HunterClan: data.HunterClanScore || 0,
+                };
+    
+                // Filtrar apenas os times com placar definido (não vazio) e maior que 0 ou igual a 0
+                const filteredScores = Object.entries(scores).filter(([team, score]) => score !== undefined && score !== null);
+    
+                // Exibir o placar
+                if (filteredScores.length > 0) {
+                    const score = document.createElement('h3');
+                    score.innerHTML = filteredScores
+                        .map(([team, score]) => `${team} <strong style="color: white;">${score}</strong>`)
+                        .join(' x ');
+                    section.appendChild(score);
+                }
+    
+                // Processar jogadores e estatísticas
+                const teams = [...new Set(data.allStats.map(player => player.teamId))]
+                    .map(teamName => ({
+                        name: teamName,
+                        players: data.allStats.filter(player => player.teamId === teamName),
+                    }));
+    
+                teams.forEach(team => {
+                    const teamTitle = document.createElement('h3');
+                    teamTitle.textContent = `Equipe: ${team.name}`;
+                    section.appendChild(teamTitle);
+    
+                    const table = document.createElement('table');
+                    const tbody = document.createElement('tbody');
+    
+                    team.players.forEach(player => {
+                        const playerStats = player.stats.reduce((acc, stat) => {
+                            acc[stat.statType] = stat.amount || 0;
+                            return acc;
+                        }, {});
+    
+                        const rowPlayerName = document.createElement('tr');
+                        rowPlayerName.classList.add('player-name');
+                        rowPlayerName.innerHTML = `<td colspan="8" style="font-weight: bold;">${player.playerName}</td>`;
+                        tbody.appendChild(rowPlayerName);
+    
+                        const rowStatsHeader = document.createElement('tr');
+                        rowStatsHeader.classList.add('stats-header');
+                        rowStatsHeader.innerHTML = `
+                            <th>Kill</th>
+                            <th>Death</th>
+                            <th>Assist</th>
+                            <th>HS</th>
+                            <th>Plant</th>
+                            <th>Defuse</th>
+                            <th>K/D/A</th>
+                            <th>Score</th>
+                        `;
+                        tbody.appendChild(rowStatsHeader);
+    
+                        const rowStats = document.createElement('tr');
+                        rowStats.classList.add('stats-row');
+                        rowStats.innerHTML = `
+                            <td>${playerStats.Kill || 0}</td>
+                            <td>${playerStats.Death || 0}</td>
+                            <td>${playerStats.Assist || 0}</td>
+                            <td>${playerStats.Headshot || 0}</td>
+                            <td>${playerStats.BombPlanted || 0}</td>
+                            <td>${playerStats.BombDefused || 0}</td>
+                            <td>${calculateKDA(playerStats)}</td>
+                            <td>${calculateScore(playerStats)}</td>
+                        `;
+                        tbody.appendChild(rowStats);
+                    });
+    
+                    table.appendChild(tbody);
+                    section.appendChild(table);
+                });
+    
+                content.appendChild(section);
+            }
+    
+            const filteredMatches = all_matches.filter(match => match.MatchId === matchId);
+    
+            if (filteredMatches.length > 0) {
+                filteredMatches.forEach(createTable);
+            } else {
+                content.innerHTML = "<p>Nenhuma partida encontrada para este MatchID.</p>";
+            }
+        }
+    
+        const matchId = "0125-1rod-1";
+        processMatchData(matchId, all_matches);
+    </script>
+    
+    
+
+</body>
+</html>
