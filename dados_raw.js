@@ -4106,6 +4106,551 @@ const all_matches = [
         "bTeams": true,
         "GigantesScore": 6,
         "SmokerSnakesScore": 10
+    },
+
+    {
+        "MatchId": "0125-3rod-3",
+        "MapNumber": 1,
+        "allStats": [		
+            {
+                "uniqueId": "PGATI",
+                "productId": "00020e8a98384c4699ca13fd55c4d402",
+                "playerName": "PGATI",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "User.fernando",
+                "productId": "0002f2d619054a78b8317a5bbbb73ffa",
+                "playerName": "User.fernando",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "johnsilvahh",
+                "productId": "0002d03c9d8b40f9aef919a3da6da371",
+                "playerName": "johnsilvahh",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "uniqueId": "jancastilho",
+                "productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+                "playerName": "jancastilho",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PowerSJK",
+                "productId": "00025a90c71f427b944887962ec81487",
+                "playerName": "PowerSJK",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "BOT_Jared",
+                "productId": "00021ee080284036b30d3cb635a7af51",
+                "playerName": "BOT_Jared",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "lucaszannatt1",
+                "productId": "000215cb656045f68bce8c2626b6674c",
+                "playerName": "lucaszannatt1",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "NOOBMASTER.VR.OFC",
+                "productId": "00023dc508384d27884d7120469e1018",
+                "playerName": "NOOBMASTER.VR.OFC",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 20
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "uniqueId": "lxXConnorXxl",
+                "productId": "0002a3bbd1944e6f9d89673de05b38fd",
+                "playerName": "lxXConnorXxl",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "bolsonaro",
+                "productId": "0002db7a04c64155be6381555f33b5bd",
+                "playerName": "bolsonaro",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "oilrig",
+            "MapCode": "4"
+        },
+        "GameMode": "SND",
+        "MatchDuration": 1254,
+        "PlayerCount": 11,
+        "bTeams": true,
+        "TOCScore": 10,
+        "HunterClanScore": 1
+    },
+    {
+        "MatchId": "0125-3rod-3",
+        "MapNumber": 2,
+        "allStats": [
+            {
+                "uniqueId": "bolsonaro",
+                "productId": "0002db7a04c64155be6381555f33b5bd",
+                "playerName": "bolsonaro",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "NOOBMASTER.VR.OFC",
+                "productId": "00023dc508384d27884d7120469e1018",
+                "playerName": "NOOBMASTER.VR.OFC",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "lucaszannatt1",
+                "productId": "000215cb656045f68bce8c2626b6674c",
+                "playerName": "lucaszannatt1",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "BOT_Jared",
+                "productId": "00021ee080284036b30d3cb635a7af51",
+                "playerName": "BOT_Jared",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "jancastilho",
+                "productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+                "playerName": "jancastilho",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PowerSJK",
+                "productId": "00025a90c71f427b944887962ec81487",
+                "playerName": "PowerSJK",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "johnsilvahh",
+                "productId": "0002d03c9d8b40f9aef919a3da6da371",
+                "playerName": "johnsilvahh",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "uniqueId": "lxXConnorXxl",
+                "productId": "0002a3bbd1944e6f9d89673de05b38fd",
+                "playerName": "lxXConnorXxl",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "User.fernando",
+                "productId": "0002f2d619054a78b8317a5bbbb73ffa",
+                "playerName": "User.fernando",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PGATI",
+                "productId": "00020e8a98384c4699ca13fd55c4d402",
+                "playerName": "PGATI",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "pinehill",
+            "MapCode": "5"
+        },	
+        "GameMode": "SND",
+        "MatchDuration": 1455,
+        "PlayerCount": 11,
+        "bTeams": true,
+        "TOCScore": 10,
+        "HunterClanScore": 3
     }
 
 ]
