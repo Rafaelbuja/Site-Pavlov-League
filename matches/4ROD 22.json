@@ -1,0 +1,288 @@
+{
+	"MatchId": "0125-4rod-2",
+    "MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "Santos1200",
+			"productId": "00022b26fd4943c5bd6d3edd1418cc17",
+			"playerName": "Santos1200",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "david.felix",
+			"productId": "0002034af6a6481fb11a479e1924c6d0",
+			"playerName": "david.felix",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 1
+				},
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 21
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 6
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "GabrielGMM",
+			"productId": "00029d5dc6b94a0c81c494eb9eaacdba",
+			"playerName": "GabrielGMM",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Kill",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "AndrewConstantino",
+			"productId": "0002d83fcede4313ab098e8141d08e55",
+			"playerName": "AndrewConstantino",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"uniqueId": "Ginni_Rush122",
+			"productId": "00027c01b71741ecb66eebe50be82d07",
+			"playerName": "Ginni_Rush122",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 3
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "foundation",
+        "MapCode": "6"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1250,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"TOCScore": 10,
+	"CaramelosScore": 3
+}
