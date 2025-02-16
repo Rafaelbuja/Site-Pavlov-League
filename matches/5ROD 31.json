@@ -1,0 +1,332 @@
+{
+	"MatchId": "0125-5rod-3",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "lxXConnorXxl",
+			"productId": "0002a3bbd1944e6f9d89673de05b38fd",
+			"playerName": "lxXConnorXxl",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 22
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2475
+				}
+			]
+		},
+		{
+			"uniqueId": "Augusot",
+			"productId": "00023556ba7c4f678ef0fdf598138a12",
+			"playerName": "Augusot",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1295
+				}
+			]
+		},
+		{
+			"uniqueId": "Milckuem",
+			"productId": "00021cf01f1b4643a86f0660cea01d27",
+			"playerName": "Milckuem",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1440
+				}
+			]
+		},
+		{
+			"uniqueId": "RatoDePraia22",
+			"productId": "0002e5d1a33f488392f9ee7766839815",
+			"playerName": "RatoDePraia22",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Experience",
+					"amount": 1545
+				}
+			]
+		},
+		{
+			"uniqueId": "User.fernando",
+			"productId": "0002f2d619054a78b8317a5bbbb73ffa",
+			"playerName": "User.fernando",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1260
+				}
+			]
+		},
+		{
+			"uniqueId": "johnsilvahh",
+			"productId": "0002d03c9d8b40f9aef919a3da6da371",
+			"playerName": "johnsilvahh",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Assist",
+					"amount": 10
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1580
+				}
+			]
+		},
+		{
+			"uniqueId": "SphereDF",
+			"productId": "0002ea59553647d9b34d1bf1197e9cb1",
+			"playerName": "SphereDF",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 17
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1955
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1445
+				}
+			]
+		},
+		{
+			"uniqueId": "Bassanelli",
+			"productId": "0002a69ebb754cbfaa1e4c8564add979",
+			"playerName": "Bassanelli",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 1625
+				}
+			]
+		},
+		{
+			"uniqueId": "PowerSJK",
+			"productId": "00025a90c71f427b944887962ec81487",
+			"playerName": "PowerSJK",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 15
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 2035
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Oilrig",
+        "MapCode": "1"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1536,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"HunterClanScore": 10,
+	"SmokerSnakesScore": 7
+}

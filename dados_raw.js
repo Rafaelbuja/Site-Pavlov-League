@@ -4,9 +4,9 @@ const all_matches = [
         "MapNumber": 1,
         "allStats": [
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -352,9 +352,9 @@ const all_matches = [
                 ]
             },
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -1584,9 +1584,9 @@ const all_matches = [
         "MapNumber": 1,
         "allStats": [
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -2076,9 +2076,9 @@ const all_matches = [
                 ]
             },
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -3084,9 +3084,9 @@ const all_matches = [
         "MapNumber": 1,
         "allStats": [		
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -3528,9 +3528,9 @@ const all_matches = [
                 ]
             },
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -4658,9 +4658,9 @@ const all_matches = [
         "MapNumber": 1,
         "allStats": [
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -5051,9 +5051,9 @@ const all_matches = [
                 ]
             },
             {
-                "uniqueId": "Vitor_cardp100",
+                "uniqueId": "Cardp",
                 "productId": "0002b99361524ffc9754471618b1581e",
-                "playerName": "Vitor_cardp100",
+                "playerName": "Cardp",
                 "teamId": "False Allies",
                 "stats": [
                     {
@@ -6339,7 +6339,1791 @@ const all_matches = [
         "bTeams": true,
         "GigantesScore": 9,
         "HunterClanScore": 1
+    },
+    {
+        "MatchId": "0125-5rod-1",
+        "MapNumber": 1,
+        "allStats": [
+            {
+                "uniqueId": "Santos1200",
+                "productId": "00022b26fd4943c5bd6d3edd1418cc17",
+                "playerName": "Santos1200",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Fernandoalves25",
+                "productId": "0002f34e97d34e6cb76c75f77cb2721e",
+                "playerName": "Fernandoalves25",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Deixa_Pro_Pai",
+                "productId": "0002c0b7a0a74976bca995c6a8f7164a",
+                "playerName": "Deixa_Pro_Pai",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 21
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "david.felix",
+                "productId": "0002034af6a6481fb11a479e1924c6d0",
+                "playerName": "david.felix",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "tmakvr",
+                "productId": "00024b852ec74378b822e8b5fb02554b",
+                "playerName": "tmakvr",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "gustattooshop",
+                "productId": "0002b9ff739448c98e7bff8301f62bba",
+                "playerName": "gustattooshop",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "uniqueId": "kakamil.2025",
+                "productId": "00029102250a4eea9d3e59cf8d6ac32f",
+                "playerName": "kakamil.2025",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "daniel_spray_torto",
+                "productId": "000259b3ae264cca9b83937331db1be8",
+                "playerName": "daniel_spray_torto",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "AndrewConstantino",
+                "productId": "0002d83fcede4313ab098e8141d08e55",
+                "playerName": "AndrewConstantino",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Bolaxa",
+                "productId": "0002d9b1755344558eedaf5bf1ffe49c",
+                "playerName": "Bolaxa",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "Vertigo",
+            "MapCode": "UGC4500480"
+        },
+        "GameMode": "SND",
+        "MatchDuration": 1236,
+        "PlayerCount": 10,
+        "bTeams": true,
+        "GigantesScore": 10,
+        "CaramelosScore": 2
+    },
+    {
+        "MatchId": "0125-5rod-1",
+        "MapNumber": 2,
+        "allStats": [
+            {
+                "uniqueId": "kakamil.2025",
+                "productId": "00029102250a4eea9d3e59cf8d6ac32f",
+                "playerName": "kakamil.2025",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "david.felix",
+                "productId": "0002034af6a6481fb11a479e1924c6d0",
+                "playerName": "david.felix",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Deixa_Pro_Pai",
+                "productId": "0002c0b7a0a74976bca995c6a8f7164a",
+                "playerName": "Deixa_Pro_Pai",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "gustattooshop",
+                "productId": "0002b9ff739448c98e7bff8301f62bba",
+                "playerName": "gustattooshop",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "AndrewConstantino",
+                "productId": "0002d83fcede4313ab098e8141d08e55",
+                "playerName": "AndrewConstantino",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "tmakvr",
+                "productId": "00024b852ec74378b822e8b5fb02554b",
+                "playerName": "tmakvr",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Santos1200",
+                "productId": "00022b26fd4943c5bd6d3edd1418cc17",
+                "playerName": "Santos1200",
+                "teamId": "Caramelos",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "daniel_spray_torto",
+                "productId": "000259b3ae264cca9b83937331db1be8",
+                "playerName": "daniel_spray_torto",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Fernandoalves25",
+                "productId": "0002f34e97d34e6cb76c75f77cb2721e",
+                "playerName": "Fernandoalves25",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Bolaxa",
+                "productId": "0002d9b1755344558eedaf5bf1ffe49c",
+                "playerName": "Bolaxa",
+                "teamId": "GIGANTES",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+                "MapName": "Cache",
+                "MapCode": "UGC3275597"
+            },
+        "GameMode": "SND",
+        "MatchDuration": 898,
+        "PlayerCount": 8,
+        "bTeams": true,
+        "GigantesScore": 10,
+        "CaramelosScore": 0
+    },
+    {
+        "MatchId": "0125-5rod-2",
+        "MapNumber": 1,
+        "allStats": [
+            {
+                "uniqueId": "FreeTack",
+                "productId": "00029c544820419aa908ac9b841624ac",
+                "playerName": "FreeTack",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PGATI",
+                "productId": "00020e8a98384c4699ca13fd55c4d402",
+                "playerName": "PGATI",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "bolsonaro",
+                "productId": "0002db7a04c64155be6381555f33b5bd",
+                "playerName": "bolsonaro",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "AfonsoMago",
+                "productId": "00025ac7da944a4fb78451f9987aafe4",
+                "playerName": "AfonsoMago",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "BOT_Jared",
+                "productId": "00021ee080284036b30d3cb635a7af51",
+                "playerName": "BOT_Jared",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Cardp",
+                "productId": "0002b99361524ffc9754471618b1581e",
+                "playerName": "Cardp",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "jancastilho",
+                "productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+                "playerName": "jancastilho",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "uniqueId": "GulyX",
+                "productId": "0002362d9ff049a0bd39d599b56351fd",
+                "playerName": "GulyX",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "NOOBMASTER.VR.OFC",
+                "productId": "00023dc508384d27884d7120469e1018",
+                "playerName": "NOOBMASTER.VR.OFC",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 25
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Naipe",
+                "productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+                "playerName": "Naipe",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 19
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 19
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+                "MapName": "Vertigo",
+                "MapCode": "UGC4500480"
+            },
+        "GameMode": "SND",
+        "MatchDuration": 2004,
+        "PlayerCount": 10,
+        "bTeams": true,
+        "TOCScore": 10,
+        "FalseAlliesScore": 9
+    },
+    {
+        "MatchId": "0125-5rod-2",
+        "MapNumber": 2,
+        "allStats": [
+            {
+                "uniqueId": "NOOBMASTER.VR.OFC",
+                "productId": "00023dc508384d27884d7120469e1018",
+                "playerName": "NOOBMASTER.VR.OFC",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Cardp",
+                "productId": "0002b99361524ffc9754471618b1581e",
+                "playerName": "Cardp",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "uniqueId": "BOT_Jared",
+                "productId": "00021ee080284036b30d3cb635a7af51",
+                "playerName": "BOT_Jared",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Naipe",
+                "productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+                "playerName": "Naipe",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    }			]
+            },
+            {
+                "uniqueId": "GulyX",
+                "productId": "0002362d9ff049a0bd39d599b56351fd",
+                "playerName": "GulyX",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 22
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "TeamKill",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "bolsonaro",
+                "productId": "0002db7a04c64155be6381555f33b5bd",
+                "playerName": "bolsonaro",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "uniqueId": "FreeTack",
+                "productId": "00029c544820419aa908ac9b841624ac",
+                "playerName": "FreeTack",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PGATI",
+                "productId": "00020e8a98384c4699ca13fd55c4d402",
+                "playerName": "PGATI",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "uniqueId": "AfonsoMago",
+                "productId": "00025ac7da944a4fb78451f9987aafe4",
+                "playerName": "AfonsoMago",
+                "teamId": "False Allies",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "uniqueId": "jancastilho",
+                "productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+                "playerName": "jancastilho",
+                "teamId": "TOC",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "Hydro",
+            "MapCode": "UGC2773654"
+        },
+        "GameMode": "SND",
+        "MatchDuration": 1454,
+        "PlayerCount": 10,
+        "bTeams": true,
+        "TOCScore": 7,
+        "FalseAlliesScore": 10
+    },
+    {
+        "MatchId": "0125-5rod-3",
+        "MapNumber": 1,
+        "allStats": [
+            {
+                "uniqueId": "lxXConnorXxl",
+                "productId": "0002a3bbd1944e6f9d89673de05b38fd",
+                "playerName": "lxXConnorXxl",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 22
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 2475
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Augusot",
+                "productId": "00023556ba7c4f678ef0fdf598138a12",
+                "playerName": "Augusot",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1295
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Milckuem",
+                "productId": "00021cf01f1b4643a86f0660cea01d27",
+                "playerName": "Milckuem",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1440
+                    }
+                ]
+            },
+            {
+                "uniqueId": "RatoDePraia22",
+                "productId": "0002e5d1a33f488392f9ee7766839815",
+                "playerName": "RatoDePraia22",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1545
+                    }
+                ]
+            },
+            {
+                "uniqueId": "User.fernando",
+                "productId": "0002f2d619054a78b8317a5bbbb73ffa",
+                "playerName": "User.fernando",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1260
+                    }
+                ]
+            },
+            {
+                "uniqueId": "johnsilvahh",
+                "productId": "0002d03c9d8b40f9aef919a3da6da371",
+                "playerName": "johnsilvahh",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1580
+                    }
+                ]
+            },
+            {
+                "uniqueId": "SphereDF",
+                "productId": "0002ea59553647d9b34d1bf1197e9cb1",
+                "playerName": "SphereDF",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 17
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1955
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Rafaelbuja",
+                "productId": "000231a37b3e4184a64af1d0cf6b9e12",
+                "playerName": "Rafaelbuja",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1445
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Bassanelli",
+                "productId": "0002a69ebb754cbfaa1e4c8564add979",
+                "playerName": "Bassanelli",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1625
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PowerSJK",
+                "productId": "00025a90c71f427b944887962ec81487",
+                "playerName": "PowerSJK",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "BombDefused",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 6
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 2035
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "Oilrig",
+            "MapCode": "1"
+        },
+        "GameMode": "SND",
+        "MatchDuration": 1536,
+        "PlayerCount": 10,
+        "bTeams": true,
+        "HunterClanScore": 10,
+        "SmokerSnakesScore": 7
+    },
+    {
+        "MatchId": "0125-5rod-3",
+        "MapNumber": 2,
+        "allStats": [
+            {
+                "uniqueId": "johnsilvahh",
+                "productId": "0002d03c9d8b40f9aef919a3da6da371",
+                "playerName": "johnsilvahh",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1345
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Rafaelbuja",
+                "productId": "000231a37b3e4184a64af1d0cf6b9e12",
+                "playerName": "Rafaelbuja",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 11
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1695
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Milckuem",
+                "productId": "00021cf01f1b4643a86f0660cea01d27",
+                "playerName": "Milckuem",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "TeamKill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "ChickenKilled",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1410
+                    }
+                ]
+            },
+            {
+                "uniqueId": "RatoDePraia22",
+                "productId": "0002e5d1a33f488392f9ee7766839815",
+                "playerName": "RatoDePraia22",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 8
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 13
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "ChickenKilled",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1440
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Augusot",
+                "productId": "00023556ba7c4f678ef0fdf598138a12",
+                "playerName": "Augusot",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1745
+                    }
+                ]
+            },
+            {
+                "uniqueId": "PowerSJK",
+                "productId": "00025a90c71f427b944887962ec81487",
+                "playerName": "PowerSJK",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 3
+                    },
+                    {
+                        "statType": "TeamKill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "BombPlanted",
+                        "amount": 4
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1430
+                    }
+                ]
+            },
+            {
+                "uniqueId": "User.fernando",
+                "productId": "0002f2d619054a78b8317a5bbbb73ffa",
+                "playerName": "User.fernando",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 12
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1470
+                    }
+                ]
+            },
+            {
+                "uniqueId": "lxXConnorXxl",
+                "productId": "0002a3bbd1944e6f9d89673de05b38fd",
+                "playerName": "lxXConnorXxl",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Kill",
+                        "amount": 10
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 15
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1385
+                    }
+                ]
+            },
+            {
+                "uniqueId": "Bassanelli",
+                "productId": "0002a69ebb754cbfaa1e4c8564add979",
+                "playerName": "Bassanelli",
+                "teamId": "Hunter Clan",
+                "stats": [
+                    {
+                        "statType": "Assist",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 21
+                    },
+                    {
+                        "statType": "Death",
+                        "amount": 14
+                    },
+                    {
+                        "statType": "TeamKill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 5
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 2525
+                    }
+                ]
+            },
+            {
+                "uniqueId": "SphereDF",
+                "productId": "0002ea59553647d9b34d1bf1197e9cb1",
+                "playerName": "SphereDF",
+                "teamId": "Smoker Snakes",
+                "stats": [
+                    {
+                        "statType": "Death",
+                        "amount": 9
+                    },
+                    {
+                        "statType": "Assist",
+                        "amount": 7
+                    },
+                    {
+                        "statType": "Kill",
+                        "amount": 16
+                    },
+                    {
+                        "statType": "Headshot",
+                        "amount": 2
+                    },
+                    {
+                        "statType": "TeamKill",
+                        "amount": 1
+                    },
+                    {
+                        "statType": "Experience",
+                        "amount": 1770
+                    }
+                ]
+            }
+        ],
+        "MapLabel": {
+            "MapName": "Sand",
+            "MapCode": "7"
+        },
+        "GameMode": "SND",
+        "MatchDuration": 1605,
+        "PlayerCount": 10,
+        "bTeams": true,
+        "HunterClanScore": 8,
+        "SmokerSnakesScore": 10
     }
+
 
 ]
     window.all_matches = all_matches;

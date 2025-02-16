@@ -1,0 +1,300 @@
+{
+	"MatchId": "0125-5rod-2",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "FreeTack",
+			"productId": "00029c544820419aa908ac9b841624ac",
+			"playerName": "FreeTack",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 15
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "bolsonaro",
+			"productId": "0002db7a04c64155be6381555f33b5bd",
+			"playerName": "bolsonaro",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "Cardp",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Cardp",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				}
+			]
+		},
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 25
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 19
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 19
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				}
+			]
+		}
+	],
+	"MapLabel": {
+            "MapName": "Vertigo",
+            "MapCode": "UGC4500480"
+        },
+	"GameMode": "SND",
+	"MatchDuration": 2004,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"TOCScore": 10,
+	"FalseAlliesScore": 9
+}
