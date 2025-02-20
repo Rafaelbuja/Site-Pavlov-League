@@ -9712,7 +9712,7 @@ const all_matches = [
         "PlayerCount": 9,
         "bTeams": true,
         "CaramelosScore": 3,
-        "FalseAlliesScore": 10
+        "HunterClanScore": 10
     },
     {
         "MatchId": "0125-6rod-3",
@@ -10024,7 +10024,7 @@ const all_matches = [
         "PlayerCount": 5,
         "bTeams": true,
         "CaramelosScore": 1,
-        "FalseAlliesScore": 10
+        "HunterClanScore": 10
     },
 
 
