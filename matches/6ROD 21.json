@@ -1,0 +1,324 @@
+{
+	"MatchId": "0125-6rod-2",
+    "MapNumber": 1,
+	"allStats": [		
+		{
+			"uniqueId": "Deixa_Pro_Pai",
+			"productId": "0002c0b7a0a74976bca995c6a8f7164a",
+			"playerName": "Deixa_Pro_Pai",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1275
+				}
+			]
+		},
+		{
+			"uniqueId": "Cardp",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Cardp",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 10
+				},
+				{
+					"statType": "Experience",
+					"amount": 1750
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Experience",
+					"amount": 695
+				}
+			]
+		},
+		{
+			"uniqueId": "Fernandoalves25",
+			"productId": "0002f34e97d34e6cb76c75f77cb2721e",
+			"playerName": "Fernandoalves25",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 565
+				}
+			]
+		},
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 20
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 2165
+				}
+			]
+		},
+		{
+			"uniqueId": "FreeTack",
+			"productId": "00029c544820419aa908ac9b841624ac",
+			"playerName": "FreeTack",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 785
+				}
+			]
+		},
+		{
+			"uniqueId": "Bolaxa",
+			"productId": "0002d9b1755344558eedaf5bf1ffe49c",
+			"playerName": "Bolaxa",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 445
+				}
+			]
+		},
+		{
+			"uniqueId": "kakamil.2025",
+			"productId": "00029102250a4eea9d3e59cf8d6ac32f",
+			"playerName": "kakamil.2025",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Experience",
+					"amount": 1290
+				}
+			]
+		},
+		{
+			"uniqueId": "daniel_spray_torto",
+			"productId": "000259b3ae264cca9b83937331db1be8",
+			"playerName": "daniel_spray_torto",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1280
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1070
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "santorini",
+        "MapCode": "8"
+        },
+	"GameMode": "SND",
+	"MatchDuration": 1160,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"GigantesScore": 3,
+	"FalseAlliesScore": 10
+}

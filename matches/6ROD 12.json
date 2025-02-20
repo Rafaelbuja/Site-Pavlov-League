@@ -1,0 +1,320 @@
+{
+	"MatchId": "0125-6rod-1",
+    "MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "RatoDePraia22",
+			"productId": "0002e5d1a33f488392f9ee7766839815",
+			"playerName": "RatoDePraia22",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Experience",
+					"amount": 1090
+				}
+			]
+		},
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Experience",
+					"amount": 1865
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 19
+				},
+				{
+					"statType": "Death",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 7
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2195
+				}
+			]
+		},
+		{
+			"uniqueId": "Milckuem",
+			"productId": "00021cf01f1b4643a86f0660cea01d27",
+			"playerName": "Milckuem",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Experience",
+					"amount": 710
+				}
+			]
+		},
+		{
+			"uniqueId": "tommy_lipica",
+			"productId": "0002e0ea70ee4f6ba25bbfff25cee52c",
+			"playerName": "tommy_lipica",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Experience",
+					"amount": 1080
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1655
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Experience",
+					"amount": 930
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 8
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1655
+				}
+			]
+		},
+		{
+			"uniqueId": "SphereDF",
+			"productId": "0002ea59553647d9b34d1bf1197e9cb1",
+			"playerName": "SphereDF",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1290
+				}
+			]
+		},
+		{
+			"uniqueId": "bolsonaro",
+			"productId": "0002db7a04c64155be6381555f33b5bd",
+			"playerName": "bolsonaro",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 350
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Vertigo",
+        "MapCode": "UGC4500480"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1453,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"TOCScore": 10,
+	"SmokerSnakesScore": 4
+}
