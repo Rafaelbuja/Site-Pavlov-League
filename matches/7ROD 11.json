@@ -1,0 +1,316 @@
+{
+	"MatchId": "0125-7rod-1",
+	"MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "Deixa_Pro_Pai",
+			"productId": "0002c0b7a0a74976bca995c6a8f7164a",
+			"playerName": "Deixa_Pro_Pai",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Experience",
+					"amount": 1515
+				}
+			]
+		},
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1665
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Experience",
+					"amount": 1735
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1340
+				}
+			]
+		},
+		{
+			"uniqueId": "kakamil.2025",
+			"productId": "00029102250a4eea9d3e59cf8d6ac32f",
+			"playerName": "kakamil.2025",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1410
+				}
+			]
+		},
+		{
+			"uniqueId": "daniel_spray_torto",
+			"productId": "000259b3ae264cca9b83937331db1be8",
+			"playerName": "daniel_spray_torto",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 820
+				}
+			]
+		},
+		{
+			"uniqueId": "bolsonaro",
+			"productId": "0002db7a04c64155be6381555f33b5bd",
+			"playerName": "bolsonaro",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 670
+				}
+			]
+		},
+		{
+			"uniqueId": "Bolaxa",
+			"productId": "0002d9b1755344558eedaf5bf1ffe49c",
+			"playerName": "Bolaxa",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Assist",
+					"amount": 8
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 4
+				},
+				{
+					"statType": "Experience",
+					"amount": 800
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Death",
+					"amount": 9
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1670
+				}
+			]
+		},
+		{
+			"uniqueId": "Fernandoalves25",
+			"productId": "0002f34e97d34e6cb76c75f77cb2721e",
+			"playerName": "Fernandoalves25",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Experience",
+					"amount": 950
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "carnival",
+        "MapCode": "2"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1658,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"GigantesScore": 4,
+	"TOCScore": 10
+}

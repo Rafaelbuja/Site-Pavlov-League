@@ -1,0 +1,220 @@
+{
+	"MatchId": "0125-7rod-2",
+	"MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Death",
+					"amount": 7
+				},
+				{
+					"statType": "Experience",
+					"amount": 485
+				}
+			]
+		},
+		{
+			"uniqueId": "lucaszannatt1",
+			"productId": "000215cb656045f68bce8c2626b6674c",
+			"playerName": "lucaszannatt1",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				},
+				{
+					"statType": "Kill",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 275
+				}
+			]
+		},
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1400
+				}
+			]
+		},
+		{
+			"uniqueId": "PowerSJK",
+			"productId": "00025a90c71f427b944887962ec81487",
+			"playerName": "PowerSJK",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 470
+				}
+			]
+		},
+		{
+			"uniqueId": "lxXConnorXxl",
+			"productId": "0002a3bbd1944e6f9d89673de05b38fd",
+			"playerName": "lxXConnorXxl",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 835
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Experience",
+					"amount": 730
+				}
+			]
+		},
+		{
+			"uniqueId": "Cardp",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Cardp",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "Assist",
+					"amount": 2
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1245
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Cache",
+        "MapCode": "UGC3275597"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 732,
+	"PlayerCount": 7,
+	"bTeams": true,
+	"HunterClanScore": 0,
+	"FalseAlliesScore": 10
+}
