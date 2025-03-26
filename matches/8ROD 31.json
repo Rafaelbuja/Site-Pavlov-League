@@ -1,0 +1,376 @@
+{
+	"MatchId": "0125-8rod-3",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "PGATI",
+			"productId": "00020e8a98384c4699ca13fd55c4d402",
+			"playerName": "PGATI",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "NOOBMASTER.VR.OFC",
+			"productId": "00023dc508384d27884d7120469e1018",
+			"playerName": "NOOBMASTER.VR.OFC",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "bolsonaro",
+			"productId": "0002db7a04c64155be6381555f33b5bd",
+			"playerName": "bolsonaro",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "BOT_Jared",
+			"productId": "00021ee080284036b30d3cb635a7af51",
+			"playerName": "BOT_Jared",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "jancastilho",
+			"productId": "0002e97d4a2d4cbd9e13bf8d69475cd7",
+			"playerName": "jancastilho",
+			"teamId": "TOC",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "PowerSJK",
+			"productId": "00025a90c71f427b944887962ec81487",
+			"playerName": "PowerSJK",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "lxXConnorXxl",
+			"productId": "0002a3bbd1944e6f9d89673de05b38fd",
+			"playerName": "lxXConnorXxl",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "lucaszannatt1",
+			"productId": "000215cb656045f68bce8c2626b6674c",
+			"playerName": "lucaszannatt1",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "User.fernando",
+			"productId": "0002f2d619054a78b8317a5bbbb73ffa",
+			"playerName": "User.fernando",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		},
+		{
+			"uniqueId": "johnsilvahh",
+			"productId": "0002d03c9d8b40f9aef919a3da6da371",
+			"playerName": "johnsilvahh",
+			"teamId": "Hunter Clan",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 0
+				},
+				{
+					"statType": "Death",
+					"amount": 0
+				},
+				{
+					"statType": "Assist",
+					"amount": 0
+				},
+				{
+					"statType": "Headshot",
+					"amount": 0
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 0
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 0
+				},
+				{
+					"statType": "Experience",
+					"amount": 0
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "W.O",
+        "MapCode": "99"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 0,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"TOCScore": 0,
+	"HunterClanScore": 10
+}

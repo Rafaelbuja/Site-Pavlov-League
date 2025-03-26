@@ -1,0 +1,308 @@
+{
+	"MatchId": "0125-9rod-1",
+    "MapNumber": 2,
+	"allStats": [
+		{
+			"uniqueId": "Cardp",
+			"productId": "0002b99361524ffc9754471618b1581e",
+			"playerName": "Cardp",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 11
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1455
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 12
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 13
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1615
+				}
+			]
+		},
+		{
+			"uniqueId": "GulyX",
+			"productId": "0002362d9ff049a0bd39d599b56351fd",
+			"playerName": "GulyX",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 17
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2025
+				}
+			]
+		},
+		{
+			"uniqueId": "tommy_lipica",
+			"productId": "0002e0ea70ee4f6ba25bbfff25cee52c",
+			"playerName": "tommy_lipica",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 7
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1645
+				}
+			]
+		},
+		{
+			"uniqueId": "Naipe",
+			"productId": "0002fe9cde8f4d8d9cafc2eba39d4f5a",
+			"playerName": "Naipe",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 21
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2410
+				}
+			]
+		},
+		{
+			"uniqueId": "Milckuem",
+			"productId": "00021cf01f1b4643a86f0660cea01d27",
+			"playerName": "Milckuem",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1330
+				}
+			]
+		},
+		{
+			"uniqueId": "SphereDF",
+			"productId": "0002ea59553647d9b34d1bf1197e9cb1",
+			"playerName": "SphereDF",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 2
+				},
+				{
+					"statType": "Experience",
+					"amount": 1700
+				}
+			]
+		},
+		{
+			"uniqueId": "RatoDePraia22",
+			"productId": "0002e5d1a33f488392f9ee7766839815",
+			"playerName": "RatoDePraia22",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Experience",
+					"amount": 1355
+				}
+			]
+		},
+		{
+			"uniqueId": "AfonsoMago",
+			"productId": "00025ac7da944a4fb78451f9987aafe4",
+			"playerName": "AfonsoMago",
+			"teamId": "False Allies",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1460
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Cache",
+        "MapCode": "UGC3275597"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1633,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"SmokerSnakesScore": 10,
+	"FalseAlliesScore": 8
+}

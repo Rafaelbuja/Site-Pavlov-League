@@ -1,0 +1,280 @@
+{
+	"MatchId": "0125-7rod-3",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "SphereDF",
+			"productId": "0002ea59553647d9b34d1bf1197e9cb1",
+			"playerName": "SphereDF",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 15
+				},
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Headshot",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 1725
+				}
+			]
+		},
+		{
+			"uniqueId": "Desert_Igor",
+			"productId": "000220bb6e594af7b5a1a150845ca219",
+			"playerName": "Desert_Igor",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 725
+				}
+			]
+		},
+		{
+			"uniqueId": "Santos1200",
+			"productId": "00022b26fd4943c5bd6d3edd1418cc17",
+			"playerName": "Santos1200",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 13
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1530
+				}
+			]
+		},
+		{
+			"uniqueId": "Milckuem",
+			"productId": "00021cf01f1b4643a86f0660cea01d27",
+			"playerName": "Milckuem",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 10
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Kill",
+					"amount": 22
+				},
+				{
+					"statType": "Assist",
+					"amount": 3
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "Experience",
+					"amount": 2365
+				}
+			]
+		},
+		{
+			"uniqueId": "Augusot",
+			"productId": "00023556ba7c4f678ef0fdf598138a12",
+			"playerName": "Augusot",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 18
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 5
+				},
+				{
+					"statType": "Death",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 12
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2415
+				}
+			]
+		},
+		{
+			"uniqueId": "AndrewConstantino",
+			"productId": "0002d83fcede4313ab098e8141d08e55",
+			"playerName": "AndrewConstantino",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 14
+				},
+				{
+					"statType": "Experience",
+					"amount": 1380
+				}
+			]
+		},
+		{
+			"uniqueId": "gustattooshop",
+			"productId": "0002b9ff739448c98e7bff8301f62bba",
+			"playerName": "gustattooshop",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 4
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 2
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1250
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1610
+				}
+			]
+		},
+		{
+			"uniqueId": "GabrielGMM",
+			"productId": "00029d5dc6b94a0c81c494eb9eaacdba",
+			"playerName": "GabrielGMM",
+			"teamId": "Caramelos",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 5
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 635
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Italy",
+        "MapCode": "UGC2879562"
+        },
+	"GameMode": "SND",
+	"MatchDuration": 1947,
+	"PlayerCount": 9,
+	"bTeams": true,
+	"CaramelosScore": 7,
+	"SmokerSnakesScore": 10
+}

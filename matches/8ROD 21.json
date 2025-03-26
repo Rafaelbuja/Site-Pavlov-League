@@ -1,0 +1,340 @@
+{
+	"MatchId": "0125-8rod-2",
+    "MapNumber": 1,
+	"allStats": [
+		{
+			"uniqueId": "daniel_churros_games",
+			"productId": "000259b3ae264cca9b83937331db1be8",
+			"playerName": "daniel_churros_games",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 11
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 11
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "TeamKill",
+					"amount": 1
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1430
+				}
+			]
+		},
+		{
+			"uniqueId": "kakamil.2025",
+			"productId": "00029102250a4eea9d3e59cf8d6ac32f",
+			"playerName": "kakamil.2025",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 18
+				},
+				{
+					"statType": "Headshot",
+					"amount": 9
+				},
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2165
+				}
+			]
+		},
+		{
+			"uniqueId": "Milckuem",
+			"productId": "00021cf01f1b4643a86f0660cea01d27",
+			"playerName": "Milckuem",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 2
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1345
+				}
+			]
+		},
+		{
+			"uniqueId": "tommy_lipica",
+			"productId": "0002e0ea70ee4f6ba25bbfff25cee52c",
+			"playerName": "tommy_lipica",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Death",
+					"amount": 15
+				},
+				{
+					"statType": "Kill",
+					"amount": 20
+				},
+				{
+					"statType": "Headshot",
+					"amount": 11
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "Experience",
+					"amount": 2285
+				}
+			]
+		},
+		{
+			"uniqueId": "Augusot",
+			"productId": "00023556ba7c4f678ef0fdf598138a12",
+			"playerName": "Augusot",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 17
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Kill",
+					"amount": 10
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 3
+				},
+				{
+					"statType": "Experience",
+					"amount": 1505
+				}
+			]
+		},
+		{
+			"uniqueId": "Rafaelbuja",
+			"productId": "000231a37b3e4184a64af1d0cf6b9e12",
+			"playerName": "Rafaelbuja",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 14
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 1690
+				}
+			]
+		},
+		{
+			"uniqueId": "Deixa_Pro_Pai",
+			"productId": "0002c0b7a0a74976bca995c6a8f7164a",
+			"playerName": "Deixa_Pro_Pai",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 22
+				},
+				{
+					"statType": "Death",
+					"amount": 12
+				},
+				{
+					"statType": "Assist",
+					"amount": 6
+				},
+				{
+					"statType": "BombDefused",
+					"amount": 1
+				},
+				{
+					"statType": "Headshot",
+					"amount": 4
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 2490
+				}
+			]
+		},
+		{
+			"uniqueId": "Bolaxa",
+			"productId": "0002d9b1755344558eedaf5bf1ffe49c",
+			"playerName": "Bolaxa",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 4
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 16
+				},
+				{
+					"statType": "Assist",
+					"amount": 7
+				},
+				{
+					"statType": "BombPlanted",
+					"amount": 1
+				},
+				{
+					"statType": "Experience",
+					"amount": 635
+				}
+			]
+		},
+		{
+			"uniqueId": "endler.rn",
+			"productId": "0002f34e97d34e6cb76c75f77cb2721e",
+			"playerName": "endler.rn",
+			"teamId": "GIGANTES",
+			"stats": [
+				{
+					"statType": "Kill",
+					"amount": 8
+				},
+				{
+					"statType": "Headshot",
+					"amount": 1
+				},
+				{
+					"statType": "Death",
+					"amount": 14
+				},
+				{
+					"statType": "Assist",
+					"amount": 5
+				},
+				{
+					"statType": "Experience",
+					"amount": 935
+				}
+			]
+		},
+		{
+			"uniqueId": "RatoDePraia22",
+			"productId": "0002e5d1a33f488392f9ee7766839815",
+			"playerName": "RatoDePraia22",
+			"teamId": "Smoker Snakes",
+			"stats": [
+				{
+					"statType": "Assist",
+					"amount": 9
+				},
+				{
+					"statType": "Death",
+					"amount": 13
+				},
+				{
+					"statType": "Kill",
+					"amount": 16
+				},
+				{
+					"statType": "Headshot",
+					"amount": 6
+				},
+				{
+					"statType": "Experience",
+					"amount": 1885
+				}
+			]
+		}
+	],
+	"MapLabel": {
+        "MapName": "Vertigo",
+        "MapCode": "UGC4500480"
+    },
+	"GameMode": "SND",
+	"MatchDuration": 1461,
+	"PlayerCount": 10,
+	"bTeams": true,
+	"GigantesScore": 8,
+	"SmokerSnakesScore": 10
+}
